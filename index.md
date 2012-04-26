@@ -4,9 +4,10 @@ title: Welcome
 posts: 5
 ---
 
-<img src="/files/2011/09/profile_thumbnail.jpg" alt="Neil Grogan" style="float:left; padding:10px" /><p> Welcome to Neil Grogan's Site! You may be interested in <a href="/archive.html" title="Neil Grogan's Blog">my blog</a> for which I write
-technology related articles. Or you can read more <a href="/about/" title="About Neil Grogan">about who I am</a>. If there is 
-anything you wish to say or to give me feedback, you can always contact me (see below).</p>
+<img src="/files/2011/09/profile_thumbnail.jpg" alt="Neil Grogan" style="float:left; padding:10px" />
+Welcome to Neil Grogan's Site! You may be interested in <a href="/archive.html" title="Neil Grogan's Blog">my blog</a> 
+for which I write technology related articles. Or you can read more <a href="/about/" title="About Neil Grogan">about who I am</a>. 
+If there is anything you wish to say or to give me feedback, you can always contact me (see below).
 
 <aside id="recent-posts">
 <h2>Recent Blog Posts:</h2>
