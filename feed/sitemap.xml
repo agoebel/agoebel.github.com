@@ -1,0 +1,152 @@
+---
+layout: nil
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/sitemap.xsl"?>
+<urlset 
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">	
+	<!--Start of Main Page-->
+  	<url>
+		<loc>http://neil.grogan.ie/</loc>
+		<lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
+		<changefreq>daily</changefreq>
+		<priority>1.0</priority>
+	</url>
+	
+	<!--Start of About Category-->
+	<url>
+		<loc>http://neil.grogan.ie/about/</loc>
+		<lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>1.0</priority>
+	</url>
+	<url>
+		<loc>http://neil.grogan.ie/about/edu/</loc>
+		<lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>1.0</priority>
+	</url>
+				<url>
+					<loc>http://neil.grogan.ie/about/edu/awards/</loc>
+					<lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
+					<changefreq>weekly</changefreq>
+					<priority>1.0</priority>
+				</url>
+	<url>
+		<loc>http://neil.grogan.ie/about/foss/</loc>
+		<lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>1.0</priority>
+	</url>
+	<url>
+		<loc>http://neil.grogan.ie/about/legal/</loc>
+		<lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>1.0</priority>
+	</url>
+				<url>
+					<loc>http://neil.grogan.ie/about/legal/copyright/</loc>
+					<lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
+					<changefreq>weekly</changefreq>
+					<priority>1.0</priority>
+				</url>
+				<url>
+					<loc>http://neil.grogan.ie/about/legal/disclaimer/</loc>
+					<lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
+					<changefreq>weekly</changefreq>
+					<priority>1.0</priority>
+				</url>
+				<url>
+					<loc>http://neil.grogan.ie/about/legal/privacy/</loc>
+					<lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
+					<changefreq>weekly</changefreq>
+					<priority>1.0</priority>
+				</url>
+	<url>
+		<loc>http://neil.grogan.ie/about/projects/</loc>
+		<lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>1.0</priority>
+	</url>
+	<url>
+		<loc>http://neil.grogan.ie/about/server/</loc>
+		<lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>1.0</priority>
+	</url>
+	<url>
+		<loc>http://neil.grogan.ie/about/travel/</loc>
+		<lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>1.0</priority>
+	</url>
+	<!--End of About Category-->
+	<!--Start of Conact Category-->
+	<url>
+		<loc>http://neil.grogan.ie/contact/</loc>
+		<lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>1.0</priority>
+	</url>
+		<url> 
+			<loc>http://neil.grogan.ie/contact/assurance/</loc>
+			<lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
+			<changefreq>weekly</changefreq>
+			<priority>1.0</priority>
+		</url>
+		<url>
+			<loc>http://neil.grogan.ie/contact/crypto/</loc>
+			<lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
+			<changefreq>weekly</changefreq>
+			<priority>1.0</priority>
+		</url>
+	<!--End of Contact Category-->
+	<!--Start of Media Category-->
+	<url>
+		<loc>http://neil.grogan.ie/media/</loc>
+		<lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>1.0</priority>
+	</url>
+				<url>
+					<loc>http://neil.grogan.ie/media/books/</loc>
+					<lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
+					<changefreq>weekly</changefreq>
+					<priority>1.0</priority>
+				</url>
+				<url>
+					<loc>http://neil.grogan.ie/media/movies/</loc>
+					<lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
+					<changefreq>weekly</changefreq>
+					<priority>1.0</priority>
+				</url>
+				<url>
+					<loc>http://neil.grogan.ie/media/news/</loc>
+					<lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
+					<changefreq>weekly</changefreq>
+					<priority>1.0</priority>
+				</url>
+				<url>
+					<loc>http://neil.grogan.ie/media/talks/</loc>
+					<lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
+					<changefreq>weekly</changefreq>
+					<priority>1.0</priority>
+				</url>
+				<url>
+					<loc>http://neil.grogan.ie/media/tv/</loc>
+					<lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
+					<changefreq>weekly</changefreq>
+					<priority>1.0</priority>
+				</url>
+	<!--End of Media Category-->
+	<!--Start of Blog Category-->
+	{% for post in site.posts %}
+	<url>
+		<loc>http://neil.grogan.ie{{ post.url }}</loc>
+		<lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+	{% endfor %}
+	<!--End of Blog Category-->
+</urlset>
