@@ -2,7 +2,8 @@
 layout: post
 title: "Ikea in the TV Business?"
 description: ""
-category: Article     
+category: 
+- Article     
 tags: [Ikea, Furniture]
 ---
 {% include JB/setup %}
