@@ -12,4 +12,5 @@ description: ""
 ### Favourite Sites
 - [Ars Technica](http://arstechnica.com "Ars")
 - [Hacker News](http://news.ycombinator.com "HN")
+- [The Register](http://theregister.co.uk "El Reg")
 - [Slashdot](http://slashdot.org "News for Nerds")
