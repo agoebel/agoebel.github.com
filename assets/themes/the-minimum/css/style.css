@@ -102,7 +102,7 @@ blockquote cite {
 }
 
 div .footnotes{
-border-top: 2px #000;
+border-top: 3px solid #eee8d5;
 }
 strong {
   font-weight: bold;
