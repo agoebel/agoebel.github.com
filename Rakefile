@@ -2,6 +2,7 @@ require "rubygems"
 require 'rake'
 require 'yaml'
 require 'time'
+require 'fileutils'
 
 SOURCE = "."
 year = (ENV['date'] ? Time.parse(ENV['date']) : Time.now).strftime('%Y')
@@ -10,7 +11,7 @@ CONFIG = {
   'version' => "0.2.13",
   'themes' => File.join(SOURCE, "_includes", "themes"),
   'layouts' => File.join(SOURCE, "_layouts"),
-   
+  'drafts' => File.join(SOURCE, "_drafts"),
   'posts' => File.join(SOURCE, "_posts/#{year}"),
   'post_ext' => "md",
   'theme_package_version' => "0.1.0"
@@ -97,6 +98,46 @@ task :page do
     post.puts "{% include JB/setup %}"
   end
 end # task :page
+
+# Usage: rake draft title="A Title"
+desc "Begin a new post in #{CONFIG['drafts']}"
+task :draft do
+  abort("rake aborted: '#{CONFIG['drafts']}' directory not found.") unless FileTest.directory?(CONFIG['drafts'])
+  title = ENV["title"] || "new-post"
+  slug = title.downcase.strip.gsub(' ', '-').gsub(/[^\w-]/, '')
+  filename = File.join(CONFIG['drafts'], "#{slug}.#{CONFIG['post_ext']}")
+  if File.exist?(filename)
+    abort("rake aborted!") if ask("#{filename} already exists. Do you want to overwrite?", ['y', 'n']) == 'n'
+  end
+  
+  puts "Creating new post: #{filename}"
+  open(filename, 'w') do |post|
+    post.puts "---"
+    post.puts "layout: post"
+    post.puts "title: \"#{title.gsub(/-/,' ')}\""
+    post.puts 'description: ""'
+    post.puts "category: "
+    post.puts "tags: []"
+    post.puts "---"
+    post.puts "{% include JB/setup %}"
+  end
+end # task :draft
+
+desc "Publish a post"
+task :publish do(file=nil)
+    unless file
+      puts "Choose file:"
+      @files = Dir["_drafts/*"]
+      @files.each_with_index { |f,i| puts "#{i+1}: #{f}" }
+      print "> "
+      num = STDIN.gets
+      file = @files[num.to_i - 1]
+    end
+    now = Date.today.strftime("%Y-%m-%d")
+    mv file, "#{CONFIG['posts']}/#{now}-#{File.basename(file)}"
+  end
+
+
 
 desc "Launch preview environment"
 task :preview do
