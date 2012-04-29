@@ -17,7 +17,8 @@ so much competition in this space it's hard to pick the best - so quality is hig
 >tech topics is the order of the day.
 			
 2. **Floss Weekly** by the TWiT Network
-		<div class="separator" style="clear: both; text-align: center;"><object class="BLOGGER-youtube-video" classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0" data-thumbnail-src="http://3.gvt0.com/vi/mGC_82RBH7c/0.jpg" height="266" width="320"><param name="movie" value="http://www.youtube.com/v/mGC_82RBH7c&fs=1&source=uds" /><param name="bgcolor" value="#FFFFFF" /><embed width="320" height="266" src="http://www.youtube.com/v/mGC_82RBH7c&fs=1&source=uds" type="application/x-shockwave-flash"></embed></object></div><br />	
+
+<iframe width="560" height="315" src="http://www.youtube.com/embed/mGC_82RBH7c" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
 
 >I am a big FLOSS advocate and have discovered so many cool and 
 >off-the-beat-and-track software projects that exist because of 
@@ -25,7 +26,8 @@ so much competition in this space it's hard to pick the best - so quality is hig
 >down-to-earth guy who really appreciates and understands his audience
 
 3. **Security Now!** by the TWiT Network
-		<div class="separator" style="clear: both; text-align: center;"><object class="BLOGGER-youtube-video" classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0" data-thumbnail-src="http://3.gvt0.com/vi/XhKqlBpH3Oc/0.jpg" height="266" width="320"><param name="movie" value="http://www.youtube.com/v/XhKqlBpH3Oc&fs=1&source=uds" /><param name="bgcolor" value="#FFFFFF" /><embed width="320" height="266" src="http://www.youtube.com/v/XhKqlBpH3Oc&fs=1&source=uds" type="application/x-shockwave-flash"></embed></object></div><br />		
+
+<iframe width="560" height="315" src="http://www.youtube.com/embed/XhKqlBpH3Oc" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
 
 >Steve Gibson (of Gibson Research) is Bruce Schneier of the tech 
 >podcasting arena. His shows are hugely informative and not just 
@@ -35,7 +37,8 @@ so much competition in this space it's hard to pick the best - so quality is hig
 >Major I did disagree with some things he said/missed out on!)
 			
 4. **HAK5** by the Revision3 Network
-		<div class="separator" style="clear: both; text-align: center;"><object class="BLOGGER-youtube-video" classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0" data-thumbnail-src="http://1.gvt0.com/vi/oIeKnB_5u2U/0.jpg" height="266" width="320"><param name="movie" value="http://www.youtube.com/v/oIeKnB_5u2U&fs=1&source=uds" /><param name="bgcolor" value="#FFFFFF" /><embed width="320" height="266" src="http://www.youtube.com/v/oIeKnB_5u2U&fs=1&source=uds" type="application/x-shockwave-flash"></embed></object></div><br />
+
+<iframe width="560" height="315" src="http://www.youtube.com/embed/oIeKnB_5u2U" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
 
 >Hosted by Darren Kitchen, a truly great sysadmin who is in to 
 >and up to all sorts of tricks. Darren has shown me many cool 
@@ -44,7 +47,8 @@ so much competition in this space it's hard to pick the best - so quality is hig
 >the best short segment on random (but cool) topics.
 
 5. **Lifehacker** by the Revision3 Network
-		<div class="separator" style="clear: both; text-align: center;"><object class="BLOGGER-youtube-video" classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0" data-thumbnail-src="http://1.gvt0.com/vi/6oSPmoqt5RE/0.jpg" height="266" width="320"><param name="movie" value="http://www.youtube.com/v/6oSPmoqt5RE&fs=1&source=uds" /><param name="bgcolor" value="#FFFFFF" /><embed width="320" height="266" src="http://www.youtube.com/v/6oSPmoqt5RE&fs=1&source=uds" type="application/x-shockwave-flash"></embed></object></div><br />
+
+<iframe width="560" height="315" src="http://www.youtube.com/embed/6oSPmoqt5RE" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
 
 >Following on from the best life-hacking site online, this 
 >show is literally the video version of all the great tips, 
