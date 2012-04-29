@@ -1,16 +1,16 @@
 ---
 layout: post
 title: The Best Cookbook
+category:
+- Food
 tags:
 - cookbook
 - Education
 - food
-- Health
 - health
 - hse
 - mabs
 - meals
-- Personal
 status: publish
 type: post
 published: true
