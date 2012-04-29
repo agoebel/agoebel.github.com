@@ -100,8 +100,9 @@ blockquote {
 blockquote cite {
   font-weight: normal;
 }
-div.footnotes{
-border-top: 2px;
+
+div .footnotes{
+border-top: 2px #000;
 }
 strong {
   font-weight: bold;
