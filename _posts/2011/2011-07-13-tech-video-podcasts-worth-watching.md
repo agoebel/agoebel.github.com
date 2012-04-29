@@ -2,7 +2,7 @@
 name: tech-video-podcasts-worth-watching
 layout: post
 title: Tech Video Podcasts Worth Watching
-category: video
+category: Video
 tags: [revision3, lifehacker, podcasts, twit, hak5]
 time: 2011-07-13 01:17:00 +01:00
 ---
