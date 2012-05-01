@@ -6,7 +6,6 @@ category:
 - Windows
 - Software
 tags: [notepad, windows, software, editors]
-published: false
 ---
 {% include JB/setup %}
 I spend a lot of my day in heavy development tools such as Eclipse[^1], but often for editing simple XML I just want a quick tool to make fast changes. If I use the CLI (or Linux) it'll be [Vim](http://www.vim.org), if I'm on Mac it'll be [Textmate](http://macromates.com/) but on Windows it's [Notepad++](http://notepad-plus-plus.org/). I haven't found an editor on Windows as clean as Notepad++ (if you use a tool professionally, you get to know it's quirks pretty fast) for editing text of any kind.
