@@ -4,7 +4,6 @@ title: "Programming is hard"
 description: ""
 category: 
 tags: []
-published: false
 ---
 {% include JB/setup %}
 

@@ -4,7 +4,6 @@ title: "Review of Steve Jobs Biography"
 description: ""
 category: Apple
 tags: [apple, steve jobs, pixar, disney]
-published: false
 ---
 {% include JB/setup %}
 I recently finished reading Steve Jobs, the biography by Walter Isaacson. I can't add much more then the extensive coverage that it has recieved in the press to date. Instead I paraphrase really badly a friend of mine, Noel Hudson:
