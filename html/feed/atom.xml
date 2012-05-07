@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Neil Grogans Site</title>
+  <link href="http://neil.grogan.ie/"/>
+  <link type="application/atom+xml" rel="self" href="http://neil.grogan.ie/atom.xml"/>
+  <updated>2012-05-02T14:30:22+01:00</updated>
+  <id>http://neil.grogan.ie/</id>
+  <author>
+    <name>Neil Grogan</name>
+    <email>neil+atomfeed@grogan.ie</email>
+  </author>
+
+  Liquid error: incompatible character encodings: UTF-8 and CP850
+ 
+</feed>
