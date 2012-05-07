@@ -9,7 +9,9 @@ tags: []
 
 A great [essay on why programming is hard](http://writing.bryanwoods4e.com/1-poor-poor-child):
 
->It's harder than you think. Right now you're probably underestimating the amount of frustration and discomfort you're about to experience, without realizing that by doing so you're creating all sorts of subtle barriers to obtaining a deep understanding of programming.
+>It's harder than you think. Right now you're probably underestimating the amount of >frustration and discomfort you're about to experience, without realizing that by 
+>doing so you're creating all sorts of subtle barriers to obtaining a deep 
+>understanding of programming.
 
 #### Language does matter
 I find this part extremely true: my first language is Java. Every programming language I've tried since has been through comparing it to Java. I've had criticism of each different language based on my assumptions. Scripting languages being prone to bad coding because they are not strictly typed, having to do tedious work with languages that require memory management (my time is too valuable!).
