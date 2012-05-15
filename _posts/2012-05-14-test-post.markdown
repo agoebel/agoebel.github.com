@@ -1,3 +1,11 @@
+---
+layout: post
+title: "Programming is hard"
+description: ""
+category: 
+tags: []
+---
+
 This is a test post
 ===================
 
