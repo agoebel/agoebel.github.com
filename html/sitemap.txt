@@ -17,6 +17,7 @@ http://neil.grogan.ie/sitemap.xml
 http://neil.grogan.ie/sitemap.xsl
 http://neil.grogan.ie/tags.html
 
+http://neil.grogan.ie/2012/05/07/programming-is-hard/
 http://neil.grogan.ie/2012/05/01/notepad-a-great-windows-editor/
 http://neil.grogan.ie/2012/04/29/record-your-terminal-session/
 http://neil.grogan.ie/2012/04/27/ikea-in-the-tv-business/
