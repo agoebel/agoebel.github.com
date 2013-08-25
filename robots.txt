@@ -1,5 +1,0 @@
-# neil.grogan.ie Robots.txt
-Sitemap: http://neil.grogan.ie/sitemap.xml
-
-User-agent: *
-Disallow:
