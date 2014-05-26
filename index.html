@@ -1,141 +1,16 @@
-<!DOCTYPE html>
-<html lang="en">
-  
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Andrew Goebel's personal landing page.">
-    <meta name="author" content="Andrew Goebel">
-    <link rel="shortcut icon" href="assets/favicon.ico">
-    <title>
-      Andrew Goebel
-    </title>
-    <link href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"
-    rel="stylesheet">
-  
-    <link href="css/screen-04eae9bbba.css" rel="stylesheet">
-</head>
-  
-  <body>
-    <div class="navbar navbar-inverse navbar-fixed-top">
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="#"></a>
-        </div>
-        <div class="collapse navbar-collapse">
-          <ul class="nav navbar-nav">
-            <li class="active">
-            </li>
-            <li>
-            </li>
-            <li>
-            </li>
-          </ul>
-        </div>
-        <!--/.nav-collapse -->
-      </div>
-    </div>
-    <div class="container">
-      <div class="starter-template">
-        <h1 class="text-left">
-          Andrew Goebel's Personal Site
-        </h1>
-        <p class="lead text-left">
-          Find me via (my email can be found at the sites below):
-        </p>
-        <div class="btn-group">
-          <a href="http://lnkd.in/-26fiQ" class="btn btn-default btn-lg" target="">LinkedIn</a>
-          <a href="http://github.com/agoebel" class="btn btn-default btn-lg" target="">Github</a>
-        </div>
-        <hr>
-        <div class="well">
-          <h2 class="text-center">
-            <b>Projects</b>
-          </h2>
-          <p class="text-center">
-            A mixture of some of the projects I have worked on.
-          </p>
-          <ul class="list-group">
-            <li class="list-group-item">
-              <a href="/solver" class="btn btn-info">Sudoku Solver</a>
-              <span class="badge">Personal</span>
-              An implementation of a relatively quick sudoku solver in pure javascript.
-            </li>
-            <li class="list-group-item">
-              <a href="http://github.com/agoebel/Prez-Semantic-Analyzer" class="btn btn-info">Prez Semantic Analyzer</a>
-              <span class="badge">Personal</span>
-              Produces a histogram of Twitter sentiment.
-            </li>
-            <li class="list-group-item">
-              <a href="./psychedelic" class="btn btn-info">Psychedelic</a>
-              <span class="badge">Personal</span>
-              Lots of colors and reducing squares.
-            </li>
-            <li class="list-group-item">
-              <a href="http://github.com/agoebel/TweetBuff" class="btn btn-info">TweetBuff</a>
-              <span class="badge">Personal</span>
-              A micro CLI tool that posts delayed tweets (like Buffer).
-            </li>
-            <li class="list-group-item">
-              <a href="http://github.com/agoebel/sentimenttrades" class="btn btn-info">SentimentTrades</a>
-              <span class="badge">Personal</span>
-              A rough sentiment analysis web crawler for stocks.
-            </li>
-            <li class="list-group-item">
-              <a href="http://github.com/agoebel/tradesimulator" class="btn btn-info">TradeSimulator</a>
-              <span class="badge">Personal</span>
-              A first go at creating a stock trading simulator.
-            </li>
-            <li class="list-group-item">
-              <a href="http://github.com/agoebel/v8wrapper" class="btn btn-info">C++ V8 Wrapper</a>
-              <span class="badge">Personal</span>
-              A small set of header files for exposing C++ to V8.
-            </li>
-            <li class="list-group-item">
-              <a href="http://github.com/agoebel/wdowman" class="btn btn-info">Wdowman</a>
-              <span class="badge">Personal</span>
-              A simple window manager written in C.
-            </li>
-            <li class="list-group-item">
-              <a href="http://github.com/agoebel/Blowfish" class="btn btn-info">Blowfish</a>
-              <span class="badge">School</span>
-              An implementation of the Blowfish Encryption Algorithm in C++.
-            </li>
-            <li class="list-group-item">
-              <a href="http://github.com/agoebel/RIPEMD-160" class="btn btn-info">RIPEMD-160</a>
-              <span class="badge">School</span>
-              An implementation of the RIPEMD-160 hash function in C.
-            </li>
-            <li class="list-group-item">
-              <a href="http://github.com/agoebel/Shortest-Path" class="btn btn-info">Trip Distance Analyzer</a>
-              <span class="badge">School</span>
-              Solves variations of the Traveling Salesman Problem in Java.
-            </li>
-            <li class="list-group-item">
-              <a href="http://github.com/agoebel/Compiler" class="btn btn-info">Compiler</a>
-              <span class="badge">School</span>
-              An implementation of a full-circle compiler in C/C++.
-            </li>
-          </ul>
-          <ul class="list-group">
-          </ul>
-        </div>
-      </div>
-      <div class="btn-group">
-      </div>
-    </div>
-    <!-- /.container -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js">
-    </script>
-    <script src="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js">
-    </script>
-    <div class="btn-group">
-    </div>
-  </body>
+---
+layout: layout
+title: "Posts"
+---
 
-</html>
+<section class="content">
+  <ul class="listing">
+    {% for post in site.posts %}
+      {% unless post.draft %}
+      <li>
+        <span>{{ post.date | date: "%B %e, %Y" }}</span> <a href="{{ post.url }}">{{ post.title }}</a>
+      </li>
+      {% endunless %}
+    {% endfor %}
+  </ul>
+</section>
