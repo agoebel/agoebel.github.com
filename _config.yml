@@ -4,10 +4,9 @@ permalink: /posts/:title
 rdiscount:
   extensions: [smart]
 
-gems:
-  - jekyll-sitemap
-
-name: Zach Holman
-url: http://zachholman.com
-description: A fantastic blog that is fantastic.
-twitter: holman
+name: Vamsee Jasti
+blog_name: Sent from my ipod
+url: jasti.github.io
+description: Ramble on
+twitter: vamseejasti
+github: jasti
