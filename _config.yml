@@ -4,9 +4,9 @@ permalink: /posts/:title
 rdiscount:
   extensions: [smart]
 
-name: Vamsee Jasti
-blog_name: Sent from my ipod
-url: jasti.github.io
-description: Ramble on
-twitter: vamseejasti
-github: jasti
+name: Andrew Goebel
+blog_name: I don't know yet
+url: agoebel.github.io
+description: Jabber Jabber
+twitter: 
+github: agoebel
